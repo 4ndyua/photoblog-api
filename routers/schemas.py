@@ -26,7 +26,7 @@ class PostBase(BaseModel):
 class User(BaseModel):
     username: str
 
-    class Config():
+    class Config:
         orm_mode = True
 
 
