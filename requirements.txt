@@ -1,7 +1,7 @@
 fastapi~=0.79.0
 uvicorn
 sqlalchemy~=1.4.39
-passlib
+passlib~=1.7.4
 bcrypt
 python-multipart
 aiofiles
