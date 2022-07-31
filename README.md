@@ -1,4 +1,5 @@
-# PhotoBlog_FastApi
+## PhotoBlog_FastApi
+API for photo blog with oauth2 authentication. Used SQLAlchemy
 ```
 pip install -r requirements.txt
 uvicorn main:app --reload
