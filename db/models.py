@@ -22,4 +22,3 @@ class DbPost(Base):
     timestamp = Column(DateTime)
     user_id = Column(Integer, ForeignKey('user.id'))
     user = relationship('DbUser', back_populates='items')
-    comments = relationship('DbComment', back_populates='post')
