@@ -1,2 +1,4 @@
 # PhotoBlog_FastApi
-blog with photos
+```
+pip install -r requirements.txt
+```
