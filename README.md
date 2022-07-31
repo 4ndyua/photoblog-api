@@ -1,2 +1,2 @@
-# blog_FastAPI
+# PhotoBlog_FastApi
 blog with photos
