@@ -14,9 +14,9 @@ image_url_types = ["absolute", "relative"]
 
 @router.post("", response_model=PostDisplay)
 def create(
-    request: PostBase,
-    db: Session = Depends(get_db),
-    current_user: UserAuth = Depends(get_current_user),
+        request: PostBase,
+        db: Session = Depends(get_db),
+        current_user: UserAuth = Depends(get_current_user),
 ):
     if request.image_url_type not in image_url_types:
         raise HTTPException(
@@ -33,7 +33,7 @@ def posts_all(db: Session = Depends(get_db)):
 
 @router.post("/image")
 def upload_image(
-    image: UploadFile = File(...), current_user: UserAuth = Depends(get_current_user)
+        image: UploadFile = File(...), current_user: UserAuth = Depends(get_current_user)
 ):
     filename = image.filename
     path = f"images/{filename}"
@@ -44,10 +44,6 @@ def upload_image(
     return {"filename": path}
 
 
-@router.post("/delete/{id}")
-def delete_post(
-    id: int,
-    db: Session = Depends(get_db),
-    current_user: UserAuth = Depends(get_current_user),
-):
-    return delete_post(id, db, current_user.id)
+@router.post('/delete/{id}')
+def delete(id: int, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):
+    return delete_post(db, id, current_user.id)
