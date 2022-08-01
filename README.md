@@ -15,6 +15,5 @@ http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/redoc
 ```
 ## Sample
-![image](https://user-images.githubusercontent.com/64310996/182097751-1b6c1ea7-4138-4ad8-a10d-f9f897372a60.png)
-![image](https://user-images.githubusercontent.com/64310996/182098037-49515b42-a82e-4c74-bd5a-74b4dfe949bc.png)
-
+![image](https://user-images.githubusercontent.com/64310996/182104622-2dfd8af3-551c-4f19-b2d9-7259a82400c0.png)
+![image](https://user-images.githubusercontent.com/64310996/182104816-00a3c873-96be-4fb3-b473-ce5e80f48ee2.png)
