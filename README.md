@@ -1,8 +1,11 @@
-## PhotoBlog_FastApi
-- API for photo blog 
+## PhotoBlog API
+- Functionality for blog with photos and comments
+### Technologies
+
+- API for Photo blog is written in FastAPI 
 - Used SQLAlchemy
 - Oauth2 user authentication
-- Comments possibility
+
 ## Installation
 ```
 git clone https://github.com/4ndyua/PhotoBlog_FastAPI.git
