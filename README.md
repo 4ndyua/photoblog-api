@@ -8,7 +8,7 @@
 
 ## Installation
 ```
-git clone https://github.com/4ndyua/photoblog-api
+git clone https://github.com/4ndyua/photoblog-api.git
 cd photoblog-api
 python -m venv venv
 venv/scripts/activate
