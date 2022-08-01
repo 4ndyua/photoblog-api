@@ -8,8 +8,8 @@
 
 ## Installation
 ```
-git clone https://github.com/4ndyua/PhotoBlog_FastAPI.git
-cd PhotoBlog_FastAPI
+git clone https://github.com/4ndyua/photoblog-api
+cd photoblog-api
 python -m venv venv
 venv/scripts/activate
 pip install -r requirements.txt
