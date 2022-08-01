@@ -9,7 +9,7 @@ def create(db: Session, request: CommentBase):
         text=request.text,
         username=request.username,
         post_id=request.post_id,
-        timestamp=datetime.now()
+        timestamp=datetime.now(),
     )
     db.add(new_comment)
     db.commit()
